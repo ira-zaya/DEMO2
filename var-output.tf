@@ -6,3 +6,7 @@ output "alb_dns_name" {
 }
 
 # =============================
+
+# output "fargate_ip" {
+  
+# }

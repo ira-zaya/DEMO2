@@ -51,7 +51,6 @@ resource "aws_security_group" "alb-security-group" {
   }
 }
 
-# Create Security Group for the Bastion Host aka Jump Box
 # terraform aws create security group
 resource "aws_security_group" "ssh-security-group" {
 name        = "SSH Access on Port 22"

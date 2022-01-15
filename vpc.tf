@@ -1,4 +1,4 @@
-# =========| VPS |=========
+# =========| VPC |=========
 
 # Create VPC
 # terraform aws create vpc

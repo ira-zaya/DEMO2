@@ -29,8 +29,6 @@ resource "aws_subnet" "public-subnet-2" {
 
 # =====================================
 
-
-
 # =========| PRIVATE SUBNETS |=========
 
 # Create Private Subnet 1
@@ -38,7 +36,7 @@ resource "aws_subnet" "public-subnet-2" {
 resource "aws_subnet" "private-subnet-1" {
   vpc_id                  = aws_vpc.vpc.id
   cidr_block              = "${var.private-subnet-1-cidr}"
-  availability_zone       = "eu-west-2b"
+  availability_zone       = "eu-west-2a"
   map_public_ip_on_launch = false
 
   tags      = {
